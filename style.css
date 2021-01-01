@@ -12,7 +12,7 @@
 
 body {
    background-color: var(--secondary-color);
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Myriad Pro', sans-serif;
    margin: 0;
 }
 
@@ -23,6 +23,14 @@ header {
     background-color: var(--primary-color);
 }
 
+.app-title {
+    font-size: 24px;
+    text-decoration-style: italic;
+    color: var(--secondary-color);
+    position: absolute;
+    left: 30px;
+    top: 0.5rem;
+}
 .search {
     background-color: transparent;
     border: 2px solid var(--secondary-color);
